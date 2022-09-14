@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
     <title>Ahorcado 04</title>
 </head>
 
 
 <body>
 
-<!-- Botones -->
+<!-- Inicio -->
     <section>
-        <header>
-            <img src="logo.svg" alt="logo alura">
-        </header>
 
         <div class="container">
+            <header>
+                <img src="logo.svg" alt="logo alura">
+            </header>
+            <!-- Botones -->
             <div class="btn btnJugar">
                 <button>Jugar</button>
             </div>
@@ -36,7 +42,97 @@
         </div>
     </section>
 
+<!-- Agregar Palabra -->
 
+    <section>
+        <div>
+            <header>
+                <img src="logo.svg" alt="logo alura">
+            </header>
+            <div>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <!-- Botones -->
+            <div class="btn btnJugar">
+                <button>Agregar palabra</button>
+            </div>
+            <div class="btn btnAdd">
+                <button>Atras</button>
+            </div>
+
+            <footer>
+                <ul class="futer">
+                    <li class="logofoot">04</li>
+                    <li class="logofoot2" style="font-size: 15px;">&copy; Copyright Tessera04 - 2022</li>
+                    <li id="resetPage"><a href="index.html">&#10226;</a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
+
+<!-- Juego -->
+
+    <section>
+        <div>
+            <header>
+                <img src="logo.svg" alt="logo alura">
+            </header>
+
+            <div class="ahorcado">
+
+            </div>
+
+            <div class="letras">
+
+            </div>
+
+            <div class="incorrectas">
+                
+            </div>
+
+            <div class="botonesTeclado">
+                <button>A</button>
+                <button>B</button>
+                <button>C</button>
+                <button>D</button>
+                <button>E</button>
+                <button>F</button>
+                <button>G</button>
+                <button>H</button>
+                <button>I</button>
+                <button>J</button>
+                <button>K</button>
+                <button>L</button>
+                <button>M</button>
+                <button>N</button>
+                <button>O</button>
+                <button>P</button>
+                <button>Q</button>
+                <button>R</button>
+                <button>S</button>
+                <button>T</button>
+                <button>U</button>
+                <button>V</button>
+                <button>W</button>
+                <button>X</button>
+                <button>Y</button>
+                <button>Z</button>
+            </div>
+
+            <div class="botones">
+                <button>Nuevo Juego</button>
+                <button>Volver al Inicio</button>
+            </div>
+
+            <footer>
+                <ul class="futer">
+                    <li class="logofoot">04</li>
+                    <li class="logofoot2" style="font-size: 15px;">&copy; Copyright Tessera04 - 2022</li>
+                    <li id="resetPage"><a href="index.html">&#10226;</a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
 
 <!-- Javascript -->
     <script src="script.js"></script>
