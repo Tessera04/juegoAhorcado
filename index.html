@@ -70,19 +70,15 @@
 
                 <div class="ahorcado">
                     <figure>
-                        <img class="imagen" src="./imagenes/ahorcado0.png" alt="">
+                        <img id="img" class="imagen" src="./imagenes/ahorcado0.png" alt="">
                     </figure>
                 </div>
 
-                <p id="letras">
-                    <span></span><span></span><span></span><span></span>
-                </p>
-
-                <div class="incorrectas">
+                <div id="letras">
                     
                 </div>
 
-                <div class="botonesTeclado">
+                <div id="btnLetras" class="botonesTeclado">
                     <button>A</button>
                     <button>B</button>
                     <button>C</button>
@@ -113,7 +109,7 @@
 
                 <div class="botones">
                     <div>
-                       <button class="btn">Nuevo Juego</button> 
+                       <button class="btn" id="nuevaPalabra">Nuevo Juego</button> 
                     </div>
                     <div>
                         <button class="btn">Desistir</button>
@@ -130,11 +126,14 @@
             <ul class="futer">
                 <li class="logofoot">04</li>
                 <li class="logofoot2" style="font-size: 15px;">&copy; Copyright Tessera04 - 2022</li>
+                <li class="logofoot2" style="font-size: 15px;"><a href="https://www.linkedin.com/in/matias-ezequiel-gonzalez-366b86220/">Linkedin</a></li>
+                <li class="logofoot2" style="font-size: 15px;"><a href="https://github.com/Tessera04">Github</a></li>
                 <li id="resetPage"><a href="index.html">&#10226;</a></li>
             </ul>
         </footer>
 
     <!-- Javascript -->
+    <script src="./funciones.js"></script>
     <script src="script.js"></script>
 </body>
 
