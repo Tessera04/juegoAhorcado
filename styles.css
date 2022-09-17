@@ -75,6 +75,17 @@ footer{
     grid-area: "btn-2";
 }
 
+.bodyAddWord{
+    display: grid;
+    padding-top: 15rem;
+    padding-left: 15rem;
+    grid-template-columns:1fr 1fr;
+}
+
+.text{
+    margin-left: 5rem;
+}
+
 
 /* Css */
 
