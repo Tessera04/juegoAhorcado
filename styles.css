@@ -84,7 +84,10 @@ footer{
 }
 
 .text{
-    margin-left: 5rem;
+    margin-left: 1rem;
+    resize: none;
+    width: 75%;
+    height: 100%;
 }
 
 .game figure{
@@ -135,7 +138,11 @@ footer{
     padding: 1rem;
     background: linear-gradient(145deg, #e6bb00, #ffdf00);
     cursor: pointer;
+    
+}
 
+.botonesTeclado button:hover{
+    background: linear-gradient(145deg, #bb6a00, #e6bb00);
 }
 
 .botones{
@@ -145,6 +152,9 @@ footer{
     padding-top: 10rem;
 }
 
+.botonesAdd{
+    padding-left: 1rem;
+}
 
 
 /* Css */
@@ -158,6 +168,11 @@ footer{
     border-radius: 62px;
     cursor: pointer;
     background: linear-gradient(145deg, #e6bb00, #ffdf00);
+    transition:  1s;
+}
+
+.btn:hover{
+    background: linear-gradient(145deg, #bb6a00, #e6bb00);
 }
 
 /*Footer*/
