@@ -33,6 +33,13 @@ function addWord(){
     id('addWord').style.display = "block";
 }
 
+function desistir() {
+    iniciar().style.display = "none";
+    gameOver().style.display = "none";
+    id("gameScreen").style.display = "none";
+    id("inicio").style.display = "block";
+}
+
 /*function inicio() {
 
     document.getElementById("inicio").style.display = "block";
