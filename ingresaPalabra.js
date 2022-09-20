@@ -9,6 +9,31 @@ const inicio2Btn = document.querySelector(".inicioGame");
 
 /* Selectores de pantalla */
 
-const mainScreen = document.querySelector(".inicio");
+let mainScreen = document.querySelector("inicio");
 const addScreen = document.querySelector(".addWord");
 const gameScreen = document.querySelector(".gameScreen");
+
+function inicio() {
+    id('#inicio').style.display = "block";
+}
+
+function irAlJuego() {
+    id('inicio').style.display = "none";
+    id('gameScreen').style.display = "block";
+}
+
+function irAlInicio(){
+    id('inicio').style.display = "block";
+    id('gameScreen').style.display = "none";
+    id('addWord').style.display = "none";
+}
+
+function addWord(){
+    id('inicio').style.display = "none";
+    id('addWord').style.display = "block";
+}
+
+/*function inicio() {
+
+    document.getElementById("inicio").style.display = "block";
+}*/

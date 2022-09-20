@@ -18,27 +18,27 @@
 </head>
 
 
-<body>
+<body onload="mostrar();">
     <div class="container">
      <!-- Inicio -->
-        <!--<section class="inicio">
+        <section class="inicio" id="inicio" style="display: block;">
             <div class="container-btn">
                 <header class="header-h">
                     <img src="logo.svg" alt="logo alura">
                 </header>
-                  Botones 
+                  <!--Botones--> 
                 <div class="btn-1">
-                    <button class="btn" id="jugarInicio">Jugar</button>
+                    <button class="btn" id="jugarInicio" onclick="irAlJuego();">Jugar</button>
                 </div>
                 <div class="btn-2">
-                    <button class="btn" id="addWordInicio">Agregar palabra</button>
+                    <button class="btn" id="addWordInicio" onclick="addWord();">Agregar palabra</button>
                 </div>     
             </div>
         </section>
     
-      Agregar Palabra 
+      <!--Agregar Palabra--> 
 
-        <section class="addWord">
+        <section class="addWord" id="addWord" style="display: none;">
                 <header>
                     <img src="logo.svg" alt="logo alura" style="padding: 1rem;">
                 </header>
@@ -46,21 +46,21 @@
                 <div>
                     <textarea class="text" id="" cols="60" rows="10" placeholder="Ingrese una palabra"></textarea>
                 </div>
-                 Botones  
+                 <!--Botones-->  
                 <div>
                     <div>
                         <button class="btn" id="saveWord">Agregar palabra</button>
                     </div>
                     <div>
-                        <button class="btn" id="goInicio">Atras</button>
+                        <button class="btn" id="goInicio" onclick="irAlInicio();">Atras</button>
                     </div>
                 </div> 
             </div>
-        </section>-->
+        </section>
 
      <!--Juego -->
 
-        <section class="gameScreen">
+        <section class="gameScreen" id="gameScreen" style="display: none;">
 
             <header>
                 <img src="logo.svg" alt="logo alura" style="padding: 1rem;">
@@ -115,7 +115,7 @@
                         <button class="btn" id="cancelGame">Desistir</button>
                     </div>
                     <div>
-                        <button class="btn" id="inicioGame">Atras</button>
+                        <button class="btn" id="inicioGame" onclick="irAlInicio();">Atras</button>
                     </div>
                 </div>
             </div>
