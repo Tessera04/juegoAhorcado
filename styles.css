@@ -219,3 +219,17 @@ footer{
     margin-right: 0px;
     color: #FFFFFF;
 }
+
+/* Media querys */
+
+@media (min-width: 768px) {
+    .botones{
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .botones{
+        display: flex;
+    }
+}
