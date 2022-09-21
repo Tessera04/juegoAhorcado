@@ -7,9 +7,12 @@ const inicioBtn = document.querySelector(".goInicio");
 const cancelBtn = document.querySelector(".cancelGame");
 const inicio2Btn = document.querySelector(".inicioGame");
 
+/* Variables */
+const inputPalabra = id('textoIn')[0];
+
 /* Selectores de pantalla */
 
-let mainScreen = document.querySelector("inicio");
+const mainScreen = document.querySelector("inicio");
 const addScreen = document.querySelector(".addWord");
 const gameScreen = document.querySelector(".gameScreen");
 
@@ -40,7 +43,15 @@ function desistir() {
     id("inicio").style.display = "block";
 }
 
-/*function inicio() {
+/* Funcion agregar palabras */
 
-    document.getElementById("inicio").style.display = "block";
-}*/
+id('saveWord').onclick = () => {
+    let input = inputPalabra.value
+
+    if(input!=''){
+        gameScreen.addWord(input);
+        inputPalabra.value = '';
+        
+        return
+    }
+}
